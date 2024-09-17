@@ -4,7 +4,7 @@ FROM python:3.9-slim
 # Definir o diretório de trabalho dentro do contêiner
 WORKDIR /app
 
-# Copiar o arquivo requirements.txt (que será criado) para o diretório de trabalho
+# Copiar o arquivo requirements.txt para o diretório de trabalho
 COPY requirements.txt requirements.txt
 
 # Instalar as dependências do Flask
